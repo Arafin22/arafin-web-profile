@@ -22,6 +22,7 @@ span {
 }
 a {
   text-decoration: none;
+  text-transform: uppercase;
   background-image: linear-gradient(orange, red);
   padding: 10px 20px;
   border-radius: 10%;
@@ -29,4 +30,41 @@ a {
 .background-img {
   background-image: url(/images/top-banner.png);
   background-repeat: no-repeat;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#web-dev-expe {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+
+#full-stack-expe {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+.experience-item {
+  width: 40%;
+  padding: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 10px;
+}
+footer p {
+  text-align: center;
+  margin-top: 80px;
 }
